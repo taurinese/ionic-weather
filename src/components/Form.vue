@@ -1,7 +1,7 @@
 <template>
     <div class="ion-padding">
         <ion-item>
-            <ion-input v-model="city" autofocus clear-input @keyup.enter="sendCity" color="primary"></ion-input>
+            <ion-input v-model="city" autofocus clear-input @keyup.enter="sendCity" color="tertiary"></ion-input>
         </ion-item>
     </div>
 </template>
